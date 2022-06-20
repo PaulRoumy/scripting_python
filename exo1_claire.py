@@ -6,6 +6,7 @@ annee = int(annee)  # Risque d'erreur si l'utilisateur n'a pas saisi un nombre
 bissextile = False  # On crée un booléen qui vaut vrai ou faux
 # selon que l'année est bissextile ou non
 
+
 if annee % 400 == 0:
     bissextile = True
 elif annee % 100 == 0:
