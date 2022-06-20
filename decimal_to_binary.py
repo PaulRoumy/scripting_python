@@ -10,4 +10,4 @@ def decimal_to_binary(dec_val):
 
 
 dec_val = int(input("Nombre décimal :  \n"))
-decimal_to_binary(str(dec_val))
+decimal_to_binary(dec_val)
