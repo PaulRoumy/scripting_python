@@ -6,6 +6,6 @@ def resizeStr(strdata: str) -> str:
     :rtype str
     """
     resizedstr = strdata
-    while resizedstr % 8 is False:
+    while resizedstr % 8 == 0 is False:
         resizedstr = resizedstr + "="
     return resizedstr

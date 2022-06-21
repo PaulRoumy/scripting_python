@@ -1,4 +1,4 @@
-def strHexal(datastr: str) -> list:
+def strHexal(datastr: str) -> list[str]:
     """
     :param datastr:
     :type datastr:
@@ -6,7 +6,7 @@ def strHexal(datastr: str) -> list:
     :rtype list:
     """
     hexal = ""
-    hexallist =list
+    hexallist =list[str]
     for character in datastr:
         if len(hexal) == 6:
             hexallist.append(hexal)

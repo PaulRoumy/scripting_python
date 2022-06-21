@@ -8,12 +8,7 @@ def binaryToOctet(binarylist: list) -> list:
     octetlist = list
     #Foreach element in binarylist check if int value can be divised by 8
     for binary in binarylist:
-        isOctet = False
-        while not isOctet:
-            if isinstance(int(binary) / 8, int):
-                isOctet = True
-            # if not add a zero before the value and retry
-            else:
+        while binary % 8 == 0 is False :
                 binary = "0" + binary
         octetlist.append(binary)
     return octetlist
