@@ -16,5 +16,5 @@ print(psutil.swap_memory())
 
 # DISK
 print(psutil.disk_partitions(all=False))
-# print(psutil.disk_usage(path))
+print(psutil.disk_usage("/System/Volumes/Data"))
 
